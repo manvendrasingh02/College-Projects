@@ -22,7 +22,7 @@ The dashboard also imports Python's standard `random` module.
 
 ## Important: required algorithm module
 
-The dashboard imports `ALGORITHMS`, `GRID`, `SRC`, `DEST`, and `compare` from `Project.py`. That module is not included in this repository folder at the linked revision, so the dashboard will not run until `Project.py` is added to the same directory. It must define the algorithm registry, the assignment grid and its start and destination coordinates, and the comparison function that returns result records with the fields used by the dashboard, including `Algorithm`, `Path`, `Path Length`, `Nodes Visited`, and `Time (ms)`.
+The dashboard imports `ALGORITHMS`, `GRID`, `SRC`, `DEST`, and `compare` from `Project.py`. That module is not included in this repository folder at the linked revision, so the dashboard will not run until `Algorithms.py` is added to the same directory. It must define the algorithm registry, the assignment grid and its start and destination coordinates, and the comparison function that returns result records with the fields used by the dashboard, including `Algorithm`, `Path`, `Path Length`, `Nodes Visited`, and `Time (ms)`.
 
 ## Installation and run
 
@@ -33,7 +33,7 @@ The dashboard imports `ALGORITHMS`, `GRID`, `SRC`, `DEST`, and `compare` from `P
    py -m pip install streamlit matplotlib pandas
    ```
 
-3. Add the required `Project.py` module described above.
+3. Add the required `Algorithms.py` module described above.
 4. Start the application:
 
    ```bash
